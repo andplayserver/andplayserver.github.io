@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: null,
+			fallback: undefined, // O 'index.html' si usas SPA
 			precompress: false
 		}),
 		paths: {
