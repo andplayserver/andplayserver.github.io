@@ -15,7 +15,7 @@
 			<a
 				href="/"
 				class="rounded-md border border-white bg-transparent px-4 py-2 text-sm hover:bg-white hover:text-purple-900"
-				>Telegram</a
+				>Telegram Grupo</a
 			>
 		</div>
 	</nav>
