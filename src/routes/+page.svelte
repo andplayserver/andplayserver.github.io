@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import HeroSection from './components/HeroSection.svelte';
+	import FeatureSection from './components/FeatureSection.svelte';
+	import DownloadSection from './components/DownloadSection.svelte';
+</script>
+
+<div class="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white">
+	<!-- Hero Section -->
+	<HeroSection />
+
+	<!-- Features Section -->
+	<FeatureSection />
+
+	<!-- Download Section -->
+	<DownloadSection />
+</div>
